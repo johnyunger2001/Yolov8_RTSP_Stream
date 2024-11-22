@@ -6,7 +6,7 @@ import os
 import sys
 
 # Initialize the YOLO model
-model = YOLO("yolov8x.pt")  # Use YOLOv8x for better performance
+model = YOLO("yolo11n.pt")  # Use YOLOv8x for better performance
 model.info()  # Display architecture details and number of parameters
 
 # RTSP URL for the livestream
